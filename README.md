@@ -31,11 +31,11 @@
 - 리뷰 기능·권한·관리자 변경 결과와 사용자 데이터 일치 여부 확인
 - 기획 배경·역할 분담·기능 흐름·구현 결과·테스트를 담은 발표자료 제작
 
-공동 구현 범위와 상세 구현 흐름은 [프론트 README](frontend/README.md)와 [백엔드 README](backend/README.md)에 정리했습니다. 프로젝트 전체를 개인 단독 구현으로 표시하지 않습니다.
+상세 구현 흐름과 실행 설정은 [프론트 기술 안내](frontend/README.md)와 [백엔드 기술 안내](backend/README.md)에 정리했습니다. 프로젝트 전체를 개인 단독 구현으로 표시하지 않습니다.
 
 ## 저장소 구성
 
-| 폴더 | 내용 |
+| 위치 | 내용 |
 | --- | --- |
 | [frontend](frontend/README.md) | React·Vite 사용자 화면, 이미지·지도 연동, 화면 캡처 |
 | [backend](backend/README.md) | Spring Boot API, Thymeleaf 관리자 화면, SQL·서버 설정 |
@@ -53,42 +53,44 @@
 | --- | --- |
 | ![맛집 상세](frontend/image/restaurant-detail.png) | ![리뷰 작성](frontend/image/review-write.png) |
 
-전체 화면 목록은 [프론트 README](frontend/README.md)에 있습니다.
+<details>
+<summary>맛집 목록·리뷰 목록</summary>
+
+### 맛집 목록
+
+![맛집 목록](frontend/image/restaurant-list.png)
+
+### 리뷰 목록
+
+![리뷰 목록](frontend/image/review-list.png)
+
+</details>
 
 ## 실행 방법
 
-Node.js·Java 실행 환경과 Oracle DB를 준비합니다. 백엔드가 사용하는 Java 버전은 [Gradle 설정](backend/build.gradle)을 확인하세요. 먼저 [백엔드 실행 안내](backend/README.md)에 따라 DB·테이블·비공개 설정 파일을 준비합니다.
+Node.js·Java 실행 환경·Oracle DB를 준비하고, [백엔드](backend/README.md)에서 DB·테이블·비공개 설정 파일을 먼저 확인합니다. 프론트 `.env`는 `frontend` 폴더에 준비합니다.
 
-프론트 폴더의 `.env`에 다음을 설정합니다.
-
-```env
-VITE_API_BASE_URL=http://localhost:8111
-```
-
-### 터미널 1 · 백엔드
-
-통합 저장소 루트에서 실행합니다.
+통합 저장소 루트에서 각각 별도 터미널로 실행합니다.
 
 ```powershell
+# 터미널 1 · 백엔드
 cd backend
 .\gradlew.bat bootRun
 ```
 
-macOS/Linux에서는 `./gradlew bootRun`을 사용합니다.
-
-### 터미널 2 · 프론트엔드
-
-통합 저장소 루트에서 실행합니다.
-
 ```powershell
+# 터미널 2 · 프론트엔드
 cd frontend
 npm install
 npm run dev
 ```
 
-- API·관리자 서버: `http://localhost:8111`
-- 사용자 화면: Vite가 터미널에 표시한 주소
-- DB·Firebase·Kakao Map의 설정 항목은 각 모듈 README를 확인하세요.
+서버는 `http://localhost:8111`, 사용자 화면은 Vite가 터미널에 표시한 주소입니다.
+
+| 상세 안내 | 내용 |
+| --- | --- |
+| [프론트 기술 안내](frontend/README.md) | 환경변수·세션 쿠키·이미지 처리, 빌드 |
+| [백엔드 기술 안내](backend/README.md) | Oracle·서비스 설정, API·ERD·권한·테스트 항목, 빌드 |
 
 ## 확인 범위
 
