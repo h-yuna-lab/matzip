@@ -373,7 +373,7 @@ http://localhost:8111
 
 ### 개인 포트폴리오 저장소
 
-- Frontend: https://github.com/h-yuna-lab/matzip-frontend
+- Frontend: [Frontend](../frontend/README.md)
 - Backend: 현재 저장소
 
 ### 원본 팀 저장소
@@ -392,4 +392,4 @@ http://localhost:8111
 
 ## 프로젝트 회고
 
-리뷰 CRUD 공동 구현, 관리자 맛집 수정·삭제와 기능 테스트 경험, 개선 방향은 [홍유나의 천안맛ZIP 프로젝트 회고](https://github.com/h-yuna-lab/matzip-frontend#프로젝트-회고)에 정리했습니다.
+리뷰 CRUD 공동 구현, 관리자 맛집 수정·삭제와 기능 테스트 경험, 개선 방향은 [홍유나의 천안맛ZIP 프로젝트 회고](../frontend/README.md)에 정리했습니다.

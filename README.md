@@ -53,11 +53,11 @@
 | --- | --- |
 | ![맛집 상세](frontend/image/restaurant-detail.png) | ![리뷰 작성](frontend/image/review-write.png) |
 
-전체 화면 목록은 [프론트 README](frontend/README.md#️-주요-화면)에 있습니다.
+전체 화면 목록은 [프론트 README](frontend/README.md)에 있습니다.
 
 ## 실행 방법
 
-Node.js·Java 실행 환경과 Oracle DB를 준비합니다. 백엔드가 사용하는 Java 버전은 [Gradle 설정](backend/build.gradle)을 확인하세요. 먼저 [백엔드 실행 안내](backend/README.md#️-실행-방법)에 따라 DB·테이블·비공개 설정 파일을 준비합니다.
+Node.js·Java 실행 환경과 Oracle DB를 준비합니다. 백엔드가 사용하는 Java 버전은 [Gradle 설정](backend/build.gradle)을 확인하세요. 먼저 [백엔드 실행 안내](backend/README.md)에 따라 DB·테이블·비공개 설정 파일을 준비합니다.
 
 프론트 폴더의 `.env`에 다음을 설정합니다.
 

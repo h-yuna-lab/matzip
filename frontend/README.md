@@ -236,7 +236,7 @@ npm run dev
 ### 개인 포트폴리오 저장소
 
 - Frontend: 현재 저장소
-- Backend: https://github.com/h-yuna-lab/matzip-backend
+- Backend: [Backend](../backend/README.md)
 
 ### 원본 팀 저장소
 
