@@ -39,7 +39,7 @@
 | --- | --- |
 | [frontend](frontend/README.md) | React·Vite 사용자 화면, 이미지·지도 연동, 화면 캡처 |
 | [backend](backend/README.md) | Spring Boot API, Thymeleaf 관리자 화면, SQL·서버 설정 |
-| [docs](docs/SOURCE.md) | 통합 기준 저장소·커밋·보존 범위 |
+| [SOURCE.md](SOURCE.md) | 통합 기준 저장소·커밋·보존 범위 |
 
 각 모듈의 소스·문서·화면 이미지와 기존 커밋 이력을 가져왔습니다. 프론트와 백엔드는 각각 실행합니다.
 
@@ -102,5 +102,5 @@ npm run dev
 
 ## 출처
 
-- [통합 기준 및 출처 기록](docs/SOURCE.md)
+- [통합 기준 및 출처 기록](SOURCE.md)
 - 원본 팀 [프론트엔드](https://github.com/SangHyunPark1213/human_mini_project2_frontend) · [백엔드](https://github.com/SangHyunPark1213/human_mini_project2_backend)
