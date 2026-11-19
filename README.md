@@ -6,6 +6,29 @@
 
 **5인 팀 프로젝트를 홍유나의 개인 포트폴리오로 정리한 통합 저장소**입니다. 사용자 React 화면과 Spring Boot·Thymeleaf 서버를 한곳에 모았으며, 개인 담당은 **리뷰 API CRUD 공동 구현, 관리자 맛집 관리 화면 구현, 기능 테스트와 발표자료 제작**입니다.
 
+## 주요 화면
+
+팀 프로젝트 당시의 화면이며, 포트폴리오용으로 새로 촬영하지는 않았습니다.
+
+![천안맛ZIP 메인](frontend/image/main.png)
+
+| 맛집 상세 | 리뷰 작성 |
+| --- | --- |
+| ![맛집 상세](frontend/image/restaurant-detail.png) | ![리뷰 작성](frontend/image/review-write.png) |
+
+<details>
+<summary>맛집 목록·리뷰 목록</summary>
+
+### 맛집 목록
+
+![맛집 목록](frontend/image/restaurant-list.png)
+
+### 리뷰 목록
+
+![리뷰 목록](frontend/image/review-list.png)
+
+</details>
+
 ## 프로젝트 개요
 
 | 항목 | 내용 |
@@ -43,29 +66,6 @@
 | [SOURCE.md](SOURCE.md) | 통합 기준 저장소·커밋·보존 범위 |
 
 프론트와 백엔드는 각각 실행합니다.
-
-## 주요 화면
-
-팀 프로젝트 당시의 화면이며, 포트폴리오용으로 새로 촬영하지는 않았습니다.
-
-![천안맛ZIP 메인](frontend/image/main.png)
-
-| 맛집 상세 | 리뷰 작성 |
-| --- | --- |
-| ![맛집 상세](frontend/image/restaurant-detail.png) | ![리뷰 작성](frontend/image/review-write.png) |
-
-<details>
-<summary>맛집 목록·리뷰 목록</summary>
-
-### 맛집 목록
-
-![맛집 목록](frontend/image/restaurant-list.png)
-
-### 리뷰 목록
-
-![리뷰 목록](frontend/image/review-list.png)
-
-</details>
 
 ## 실행 방법
 
